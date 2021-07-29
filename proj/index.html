@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <script type="text/javascript" src="./lib/jasmine.js"></script>
+    <script type="text/javascript" src="./lib/jasmine-html.js"></script>
+    <script type="text/javascript" src="./lib/boot.js"></script>
+    <link rel="stylesheet" href="./lib/jasmine.css"></link>
+
+    <script type="text/javascript" src="./calc.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+    <input type="text" value="" onchange="calculate(this.value)">
+    <div>Result
+        <span id="result"></span>
+    </div>
+</body>
+</html>
